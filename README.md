@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+### Task Tracker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and interactive Task Tracker application built with React.
+This project allows users to add, delete, and toggle reminders for tasks.
+It uses a mock REST API (json-server) for backend data storage.
 
-## Available Scripts
+### 🚀 Features
 
-In the project directory, you can run:
+Add new tasks
 
-### `npm start`
+Delete existing tasks
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Toggle task reminders
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Fetch tasks from a mock backend
 
-### `npm test`
+Client-side routing with React Router
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clean and beginner-friendly React code
 
-### `npm run build`
+### 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React Hooks (useState, useEffect)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React Router DOM (v7)
 
-### `npm run eject`
+JSON Server (mock backend)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+HTML / CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+JavaScript
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation & Setup
+1.Install Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2.Start the mock backend (JSON Server) **npm run server**
+  Runs the API at: **http://localhost:5000/tasks** (Make sure db.json exists in the root directory.)
+  
+3.Start the React app
+  The app will run on: **http://localhost:3000**
 
-## Learn More
+### Routing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+/ → Task Tracker (main page)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+/about → About page
 
-### Code Splitting
+Routing is implemented using react-router-dom v7.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Learning Outcome
 
-### Analyzing the Bundle Size
+This project helped me understand:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+React fundamentals
 
-### Making a Progressive Web App
+Component-based architecture
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+State management with hooks
 
-### Advanced Configuration
+REST API interaction using fetch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Client-side routing with React Router
 
-### Deployment
+CRUD operations with JSON Server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### This project was built by following the tutorial by Brad Traversy:
+**👉 https://www.youtube.com/watch?v=w7ejDZ8SWv8**
